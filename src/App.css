@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +17,52 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* // ---------------- Start of About Me Page ----------------  */
+
+.header {
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 50px;
 }
+
+.h1 {
+  color: #ffffff;
+  display: inline-block;
+}
+
+.first-block {
+  display: inline-block;
+  width: 300px;
+   margin-top: 30px;
+  margin-right: 10px;
+}
+
+.second-block {
+  display: inline-block;
+  width: 45%;
+  font-size: 19px;
+  border-style: dotted;
+  border-width: thick;
+  border-color: rgb(185, 76, 185);
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 20px;
+  vertical-align: top;  
+  background-color: black;
+  opacity: 0.8;
+  color: #61dafb;
+}
+
+.artImage {
+  width: 300px;
+}
+
+/* // ---------------- End of About Me Page ----------------  */
+
+
+/* // ---------------- Start of Projects Page ----------------  */
+/* NavBar CSS */
+
+
+/* // ---------------- End of Projects Page ----------------  */
