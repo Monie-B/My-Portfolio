@@ -1,8 +1,5 @@
 body {
-  background-image: url('https://wallpaperaccess.com/full/5652014.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
+  background-color: rgb(136, 110, 136);
 }
 
 code {

@@ -6,9 +6,9 @@ export default function Projects (props) {
     return (
         <>
             <header>
-                <h1>This is the Projects Page</h1>
-                <NavBar />
+                <h1>View My Projects</h1>
             </header>
+            <NavBar />
         </>
     )
 }

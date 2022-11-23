@@ -1,0 +1,59 @@
+.project-icon {
+    display: block;
+    width: 50px;
+}
+
+.homepage-icon {
+    display: block;
+    width: 47px;
+}
+
+.aboutme-icon {
+    display: block;
+    width: 52px;
+    padding: 0;
+}
+
+.sidebar {
+    position: fixed;
+    left: 11;
+    bottom: 0;
+    top: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+nav {
+    opacity: 0.4;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sidebar-link {
+    margin-top: 60px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 125px;
+}
+
+.sidebar-link img {
+    margin-bottom: 4px;
+}
+
+.aboutme-icon1 {
+    display: block;
+    width: 52px;
+    border: 0;
+    margin-left: 8px;
+}
+
+.test {
+    height: 0;
+}
+

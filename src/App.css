@@ -17,13 +17,6 @@
   color: #61dafb;
 }
 
-/* // ---------------- Start of NavBar ----------------  */
-
-
-
-/* // ---------------- End of NavBar ----------------  */
-
-
 
 /* // ---------------- Start of About Me Page ----------------  */
 
@@ -31,6 +24,7 @@
   background-color: black;
   opacity: 0.6;
   border-radius: 50px;
+  height: 79px;
 }
 
 .h1 {
@@ -41,8 +35,9 @@
 .first-block {
   display: inline-block;
   width: 300px;
-   margin-top: 30px;
+  margin-top: 30px;
   margin-right: 10px;
+  padding-left: 40px;
 }
 
 .second-block {

@@ -1,3 +1,73 @@
-body {
-    background-color: blueviolet;
+.header {
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 50px;
+    height: 79px;
+  }
+  
+  .monica {
+    width: 250px;
+    position: relative;
+    left: -20px;
 }
+
+  .html {
+    /* display: inline-block; */
+    position: absolute;
+    top: 100px;
+    width: 120px;
+    left: 355px;
+  }
+
+  .css {
+    position: relative;
+    top: -260px;
+    width: 120px;
+    left: 15px;
+  }
+
+  .js {
+    position: relative;
+    top: -70px;
+    width: 120px;
+    left: 40px;
+  }
+
+  .mongodb {
+    position: relative;
+    top: -100px;
+    width: 120px;
+    right: 30px;
+  }
+
+  .express {
+    position: relative;
+    top: -260px;
+    width: 120px;
+    right: 230px;
+  }
+
+  .nodejs {
+    position: relative;
+    top: -400px;
+    width: 120px;
+    right: 120px;
+  }
+
+  .react {
+    position: relative;
+    top: -260px;
+    width: 120px;
+    left: -30px;
+  }
+
+  .github {
+    position: relative;
+    top: -220px;
+    width: 120px;
+    right: 160px;
+  }
+
+  /* @media (min-width: 500) {
+
+  } */
