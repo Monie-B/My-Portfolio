@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import NavBar from '../components/NavBar';
+import '../CSS/resume.css'
+
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <>
+      <header>
+        <h1>Review My Resume</h1>
+      </header>
+      <NavBar />
+    </>
   )
 }
 

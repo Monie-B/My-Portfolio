@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cinzel&family=Dancing+Script&family=Indie+Flower&family=Kalam:wght@300;400&family=Rancho&family=Satisfy&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -30,7 +33,16 @@
 .h1 {
   color: #ffffff;
   display: inline-block;
-  font-family: 'Kalam', cursive;}
+  font-family: 'Kalam', cursive;
+}
+
+h3 {
+  color: #ffffff;
+}
+
+ul p {
+  margin: 0;
+}
 
 .first-block {
   display: inline-block;
@@ -42,18 +54,24 @@
 
 .second-block {
   display: inline-block;
-  width: 45%;
+  width: 60%;
   font-size: 19px;
   border-style: dotted;
   border-width: thick;
-  border-color: rgb(185, 76, 185);
+  border-color: rgb(250, 213, 250);
+  border-width: 10px;
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 20px;
   border-radius: 20px;
   vertical-align: top;  
-  background-color: black;
+  background-color: rgb(46, 43, 43);
   opacity: 0.8;
   color: #61dafb;
+}
+
+.title {
+  font-family: 'Rancho', cursive;
+  font-size: xxx-large;
 }
 
 .artImage {
@@ -61,10 +79,3 @@
 }
 
 /* // ---------------- End of About Me Page ----------------  */
-
-
-/* // ---------------- Start of Projects Page ----------------  */
-/* NavBar CSS */
-
-
-/* // ---------------- End of Projects Page ----------------  */

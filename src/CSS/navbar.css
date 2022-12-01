@@ -8,6 +8,11 @@
     width: 47px;
 }
 
+.resume-icon {
+    display: block;
+    width: 52px;
+}
+
 .aboutme-icon {
     display: block;
     width: 52px;
@@ -17,7 +22,7 @@
 .sidebar {
     position: fixed;
     left: 11;
-    bottom: 0;
+    bottom: 4px;
     top: 100px;
     width: 100px;
     background-color: white;
@@ -35,10 +40,6 @@ nav {
 
 .sidebar-link {
     margin-top: 60px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     height: 125px;
 }
 
@@ -57,3 +58,22 @@ nav {
     height: 0;
 }
 
+/* unvisited link */
+a:link {
+    color: rgb(71, 22, 61);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(6, 184, 211);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(240, 13, 126);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(203, 241, 113);
+  }

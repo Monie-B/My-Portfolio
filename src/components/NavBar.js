@@ -16,10 +16,10 @@ export default function NavBar (props) {
                 <a href="/">
                     <img src="home.png" className="homepage-icon" alt="homepage icon"></img>Main</a>
             </div>
-            {/* <div className="sidebar-link">
-                <a href="/aboutme">
-                    <img src="female-profile.png" className="aboutme-icon" alt="aboutme icon"></img>About Me</a>
-            </div> */}
+            <div className="sidebar-link">
+                <a href="/resume">
+                    <img src="resume.png" className="resume-icon" alt="resume icon"></img>Resume</a>
+            </div>
             <div className="sidebar-link">
                 <div>
                     <a href="/aboutme">
