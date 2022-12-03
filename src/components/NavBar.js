@@ -18,7 +18,7 @@ export default function NavBar (props) {
             </div>
             <div className="sidebar-link">
                 <a href="/resume">
-                    <img src="resume.png" className="resume-icon" alt="resume icon"></img>Resume</a>
+                    <img src="resume.png" className="resume-icon" alt="resume icon"></img>Contact Me</a>
             </div>
             <div className="sidebar-link">
                 <div>
