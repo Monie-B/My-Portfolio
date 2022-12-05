@@ -6,14 +6,40 @@ header {
     height: 79px;
   }
 
-  h1 {
+h1 {
     display: inline-block;
     font-size: 50px;
     margin-top: 9px;
     margin-bottom: 0;
   }
 
-  .resume-bar {
-    margin-left: -320px;
+.resume-bar {
+    display: inline-block;
     margin-top: 30px;
+  }
+
+.side-group {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-left: 70px;
+    padding-top: 70px;
+}
+
+.sm-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linkedin {
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.github1 {
+    display: block;
+    width: 200px;
   }

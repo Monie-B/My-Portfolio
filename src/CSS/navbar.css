@@ -66,12 +66,12 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: rgb(6, 184, 211);
+    color: rgb(80, 7, 56);
   }
   
   /* mouse over link */
   a:hover {
-    color: rgb(240, 13, 126);
+    color: rgb(202, 17, 156);
   }
   
   /* selected link */
