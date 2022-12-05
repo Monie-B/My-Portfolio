@@ -8,9 +8,9 @@ header {
 
 h1 {
     display: inline-block;
-    font-size: 50px;
-    margin-top: 9px;
-    margin-bottom: 0;
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Kalam', cursive;
   }
 
 .resume-bar {
