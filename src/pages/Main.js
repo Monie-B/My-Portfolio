@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar"
-import '../CSS/main.css'
+import '../CSS/main.css';
+import Footer from "../components/Footer";
 
 
 export default function Main (props) {
@@ -38,7 +39,7 @@ export default function Main (props) {
                     <img src="github.png" className="github" alt="GitHub logo"></img>
                 </div>
             </div>
-            <footer>Website created by Monica &#169; 2022</footer>
+            <Footer />
         </>
     )
 }

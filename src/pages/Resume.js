@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import '../CSS/resume.css'
 
@@ -29,6 +30,7 @@ const Resume = () => {
           </div>
       </div>
     </div>
+    <Footer />
   </>
   )
 }
