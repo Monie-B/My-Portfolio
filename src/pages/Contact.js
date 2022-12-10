@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar';
 import '../CSS/resume.css'
 
 
-const Resume = () => {
+const Contact = () => {
   return (
     <>
       <header>
@@ -19,6 +19,7 @@ const Resume = () => {
         <div className='side-group'>
           <div className='sm-container'>
             <div className='linkedin'>
+              <h2>My Profiles</h2>
               <a href='https://www.linkedin.com/in/monica-bullock-502945248/' target='_blank' rel="noreferrer">
                 <img src='linkedin.png' alt='LinkedIn Icon'></img>Let's Connect
               </a>
@@ -35,4 +36,4 @@ const Resume = () => {
   )
 }
 
-export default Resume
+export default Contact
