@@ -24,10 +24,26 @@
     position: fixed;
     left: 11;
     bottom: 4px;
-    top: 100px;
+    top: 110px;
     width: 100px;
     background-color: white;
     border-radius: 50px;
+}
+
+
+/* Media Query for Contact Page */
+@media screen and (max-width: 534px) {
+    .sidebar {top: 202px;}
+}
+
+@media screen and (max-width: 282px) {
+    .sidebar {top: 300px;}
+    .sidebar-link {margin: 0; height: 0;}
+    .sidebar-link img {margin-bottom: 0;}
+    .project-icon {width: 30%; margin-left: 40px;}
+    .homepage-icon {width: 30%; margin-left: 40px;}
+    .resume-icon {width: 30%; margin-left: 35px;}
+    .aboutme-icon {width: 20%; margin-left: 40px;}
 }
 
 nav {
@@ -40,7 +56,7 @@ nav {
 }
 
 .sidebar-link {
-    margin-top: 33px;
+    margin-top: 20%;
     height: 125px;
 }
 
@@ -77,4 +93,15 @@ a:link {
   /* selected link */
   a:active {
     color: rgb(203, 241, 113);
+  }
+
+  /* Media Query for About Me Page */
+
+  @media screen and (max-width: 731px) {
+    .sidebar {top: 202px;}
+  }
+
+  @media screen and (max-width: 375px) {
+    .sidebar {top: 302px;}
+    .second-block {margin-left: 100px;}
   }

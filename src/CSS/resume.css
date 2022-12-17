@@ -1,9 +1,12 @@
+.contOne {
+  width: 20%;
+}
+
 header {
     background-color: black;
     opacity: 0.6;
     border-radius: 50px;
     color: rgb(255, 255, 255);
-    height: 79px;
   }
 
 h1 {
@@ -16,7 +19,12 @@ h1 {
 .resume-bar {
     display: inline-block;
     margin-top: 30px;
+    margin-left: 110px;
   }
+
+.resumeImg {
+  width: 100%;
+}
 
 .side-group {
     display: inline-block;

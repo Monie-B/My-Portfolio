@@ -14,8 +14,10 @@ const Contact = () => {
       </header>
       <NavBar />
       <div className='resume-bar'>
-          <img src='Screenshot_20221202_084640.png' alt='Monica resume document'></img>
-        </div>
+        <a href='MonicaBullockResume.pdf' target='_blank'>
+          <img src='Screenshot_20221202_084640.png' alt='Monica resume document' className='resumeImg'></img>
+        </a>
+      </div>
         <div className='side-group'>
           <div className='sm-container'>
             <div className='linkedin'>
