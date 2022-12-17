@@ -30,6 +30,16 @@ export default function Projects (props) {
                                     <a target="_blank" rel="noreferrer" href="https://github.com/Monie-B/Grizzly-Gang-Bullies.git" className="code">View Source Code</a>
                     </div>
             </div>
+            {/* Card for E-commerce app */}
+            {/* <div class="card3">
+                <img src="GrizzlyBulliesSite.jpg" alt="Grizzly Bullies Site screenshot" className="pic2"></img>
+                    <div class="container">
+                        <h2><b>Grizzly Bullies Site</b></h2>
+                            <p>Static website for an up and coming American Bully breeding service.</p> 
+                                <p>In Progress</p>
+                                    <a target="_blank" rel="noreferrer" href="https://github.com/Monie-B/Grizzly-Gang-Bullies.git" className="code">View Source Code</a>
+                    </div>
+            </div> */}
             <Footer />
         </>
     )
